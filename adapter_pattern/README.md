@@ -16,17 +16,22 @@ We want to make AudioPlayer to play other formats as well. To attain this, we ha
 
 AudioPlayer uses the adapter class MediaAdapter passing it the desired audio type without knowing the actual class which can play the desired format. AdapterPatternDemo, our demo class will use AudioPlayer class to play various formats.
 
-1. Step 1:
-    **Create interfaces for Media Player and Advanced Media Player.
+## Step 1:
 
-2. Step 2:
-    **Create concrete classes implementing the AdvancedMediaPlayer interface.
+Create interfaces for Media Player and Advanced Media Player.
 
-3. Step 3:
-    **Create adapter class implementing the MediaPlayer interface.
+## Step 2:
 
-4. Step 4:
-    **Create concrete class implementing the MediaPlayer interface.
+Create concrete classes implementing the AdvancedMediaPlayer interface.
 
-5. Step 5:
-    **Use the AudioPlayer to play different types of audio formats.
+## Step 3:
+
+Create adapter class implementing the MediaPlayer interface.
+
+## Step 4:
+
+Create concrete class implementing the MediaPlayer interface.
+
+## Step 5:
+
+Use the AudioPlayer to play different types of audio formats.
