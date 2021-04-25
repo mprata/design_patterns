@@ -5,7 +5,6 @@ Adapter pattern works as a bridge between two incompatible interfaces. This type
 This pattern involves a single class which is responsible to join functionalities of independent or incompatible interfaces. A real life example could be a case of card reader which acts as an adapter between memory card and a laptop. You plugin the memory card into card reader and card reader into the laptop so that memory card can be read via laptop.
 
 We are demonstrating use of Adapter pattern via following example in which an audio player device can play mp3 files only and wants to use an advanced audio player capable of playing vlc and mp4 files.
----
 
 ## Implementation
 
@@ -18,16 +17,16 @@ We want to make AudioPlayer to play other formats as well. To attain this, we ha
 AudioPlayer uses the adapter class MediaAdapter passing it the desired audio type without knowing the actual class which can play the desired format. AdapterPatternDemo, our demo class will use AudioPlayer class to play various formats.
 
 1. Step 1:
-    Create interfaces for Media Player and Advanced Media Player.
+    **Create interfaces for Media Player and Advanced Media Player.
 
 2. Step 2:
-    Create concrete classes implementing the AdvancedMediaPlayer interface.
+    **Create concrete classes implementing the AdvancedMediaPlayer interface.
 
 3. Step 3:
-    Create adapter class implementing the MediaPlayer interface.
+    **Create adapter class implementing the MediaPlayer interface.
 
 4. Step 4:
-    Create concrete class implementing the MediaPlayer interface.
+    **Create concrete class implementing the MediaPlayer interface.
 
 5. Step 5:
-    Use the AudioPlayer to play different types of audio formats.
+    **Use the AudioPlayer to play different types of audio formats.
